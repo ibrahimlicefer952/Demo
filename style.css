@@ -12,7 +12,6 @@ section {
   width: 200px;
   height: 200px;
   background-color: #5988af;
-  padding: 49px;
 }
 #creating .box .minibox {
   display: flex;
@@ -23,8 +22,10 @@ section {
   height: 100px;
   font-weight: 700;
   font-size: 20px;
-  padding: 35px;
-  transition: 2s;
+  transition: 3s;
+}
+#creating .box .minibox:hover {
+  padding: 75px;
 }
 #creating .violetbox {
   display: flex;
